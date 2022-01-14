@@ -95,4 +95,12 @@ Finished product should execute something like this:
 ## 6. Optimizing Remote Running
 <br/>
 
+To optimize your command efficency, here are some tips and tricks to make your remote operations more enjoyable. 
 
+1. You could put multiple commands into 1 single line of code, seperating each individual command with a semicolon
+2. The up arrow is your friend. If you have a command that you used recently and you need it again, just press the up button a few times.
+3. Opening 2 terminals sometimes will help organize and see more at once.
+
+For example, the following code is mutiple commands ran from the same line:
+
+![image](https://myang25.github.io/cse15l-lab-reports/Optimization.png)
