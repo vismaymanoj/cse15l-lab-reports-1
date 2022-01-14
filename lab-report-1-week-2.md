@@ -44,6 +44,7 @@ Now that you are logged in and connected to the server, you can try out some com
 * cd
 * ls ~a
 * cd <A directory>
+<br/>
 
 This is an example of what some commands may return:
 <br/>
