@@ -32,4 +32,26 @@ If this is your first time connecting to the server, you will get a message conf
 Then the terminal will ask for your password, which is your school account password that you just reset. Keep in mind that the password will be invisible, which trips me up every time. If your password is correct, you should see something along the lines of:
 <br/>
 
-![image]()
+![image](https://myang25.github.io/cse15l-lab-reports/Login%20ieng6.png)
+<br/>
+
+## 3. Trying Some Commands
+<br/>
+
+Now that you are logged in and connected to the server, you can try out some commands! You can try some of these commands on both the cleint (your own computer) and the server (the ssh remote computer).
+
+* ls
+* cd
+* ls ~a
+* cd <A directory>
+
+This is an example of what some commands may return:
+<br/>
+
+![image](https://myang25.github.io/cse15l-lab-reports/Trial-Commands.png)
+<br/><br/>
+
+## 4. Moving Files with SCP
+<br/>
+
+
