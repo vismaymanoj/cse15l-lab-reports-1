@@ -1,8 +1,8 @@
 # This is the Second File Heading
 ## Second Heading
-*This is Italic*
-**This is bold**
-[Link] (https://www.youtube.com/)
+*This is Italic* 
+**This is bold** 
+
 ![Image] ()
 > Yoink
 
@@ -21,3 +21,5 @@
 ```
 I'm in a block!
 ```
+
+[Link] (https://www.youtube.com/)
