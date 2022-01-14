@@ -69,4 +69,30 @@ Once you've done that, you can log back in using ssh and run the command **ls**.
 ## 5. Setting Up an SSH Key
 <br/>
 
+By setting up an SSH Key, we no longer need to type our password whenever we want to login. Run the command:
+
+**$ ssh-keygen**
+
+It will ask for a file to put the password in. The default one is usually fine so just press enter. Then, it will ask you to set up a password for the key. To save time, we leave it blank (just press enter).
+
+[FOR WINDOWS USERS: THERE ARE MORE STEPS FOR YOU HERE: [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)]
+
+Next, login into the server. Run the command:
+
+**$ mkdir .ssh**
+
+Logout. Then, on ur client, run:
+
+**$ scp /Users/YourUser/.ssh/id_rsa.pub cs15lwi22xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys**
+
+Now, you should be able to ssh into your account without needing a password.
+
+Finished product should execute something like this:
+
+![Image](https://myang25.github.io/cse15l-lab-reports/SSH%20Key.png)
+<br/><br/>
+
+## 6. Optimizing Remote Running
+<br/>
+
 
