@@ -3,7 +3,7 @@
 *This is Italic*
 **This is bold**
 [Link] (https://www.youtube.com/)
-![Image] (https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png)
+![Image] ()
 > Yoink
 
 - List
