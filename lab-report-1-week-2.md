@@ -61,6 +61,12 @@ Next, lets try moving a file from our local computer to the server. Create a fil
 
 This command copies the file from your computer and places a copy in the server. This command will also prompt your password.
 
-Once you've done that, you can log back in using ssh and run the command **ls**. **ls** lists the current files in selected directory. You should see your new file show up inside. For my exmaple, I used **WhereAmI.java**:
+Once you've done that, you can log back in using ssh and run the command **ls**. **ls** lists the current files in selected directory. You should see your new file show up inside. For my example, I used **WhereAmI.java**:
 
 ![image](https://myang25.github.io/cse15l-lab-reports/Moved%20File.png)
+<br/><br/>
+
+## 5. Setting Up an SSH Key
+<br/>
+
+
