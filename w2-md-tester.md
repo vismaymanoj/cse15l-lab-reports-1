@@ -3,7 +3,7 @@
 *This is Italic*  
 **This is bold** 
 
-![Image] ()
+![Image](https://myang25.github.io/cse15l-lab-reports/Install%20VSCode.png)
 > Yoink
 
 - List
@@ -22,6 +22,6 @@
 I'm in a block!
 ```
 
-[Link] (https://www.youtube.com/)
+[Link](https://www.youtube.com/)
 
 A one, A two, A one, two, three, four!

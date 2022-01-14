@@ -4,4 +4,6 @@ To log in into your course specific account on ieng6 is not that hard! Just foll
 <br/><br/>
 ## 1. Installing VSCode
 ---
-![Image](https://github.com/mYang25/cse15l-lab-reports/blob/22b0a2e3b1bb405f431748575201f4e1f685c5f2/Install%20VSCode.png)
+![Image](https://myang25.github.io/cse15l-lab-reports/Install%20VSCode.png)
+<br/>
+
