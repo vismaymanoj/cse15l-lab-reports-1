@@ -23,7 +23,7 @@ Then, you need to find your course-specific account for the class you are attend
 
 Next, navigate to the top toolbar and select "Terminal" and "New Terminal". This should open a terminal input at the bottom where you can issue the command:
 
-**$ ssh cs15lwi22xxx@ieng6.ucsd.edu**
+```**$ ssh cs15lwi22xxx@ieng6.ucsd.edu**```
 <br/>
 
 If this is your first time connecting to the server, you will get a message confirming if you are sure you would like to connect onto this server. Just put "yes" and don't ask questions.
@@ -40,10 +40,10 @@ Then the terminal will ask for your password, which is your school account passw
 
 Now that you are logged in and connected to the server, you can try out some commands! You can try some of these commands on both the cleint (your own computer) and the server (the ssh remote computer).
 
-* ls
-* cd
-* ls ~a
-* cd [directory]
+* ```ls```
+* ```cd```
+* ```ls ~a```
+* ```cd [directory]```
 <br/>
 
 This is an example of what some commands may return:
@@ -55,13 +55,13 @@ This is an example of what some commands may return:
 ## 4. Moving Files with SCP
 <br/>
 
-Next, lets try moving a file from our local computer to the server. Create a file in VSCode and write some code into it. Then, save it. Log out of the server. Use the commmand cd [Directory] to navigate to the folder in which that file is saved. Run the following command:
+Next, lets try moving a file from our local computer to the server. Create a file in VSCode and write some code into it. Then, save it. Log out of the server. Use the commmand ```cd [Directory]``` to navigate to the folder in which that file is saved. Run the following command:
 
-**$ scp FileName.java cs15lwi22xxx@ieng6.ucsd.edu:~/**
+```**$ scp FileName.java cs15lwi22xxx@ieng6.ucsd.edu:~/**```
 
 This command copies the file from your computer and places a copy in the server. This command will also prompt your password.
 
-Once you've done that, you can log back in using ssh and run the command **ls**. **ls** lists the current files in selected directory. You should see your new file show up inside. For my example, I used **WhereAmI.java**:
+Once you've done that, you can log back in using ssh and run the command ```**ls**```. ```**ls**``` lists the current files in selected directory. You should see your new file show up inside. For my example, I used ```**WhereAmI.java**```:
 
 ![image](https://myang25.github.io/cse15l-lab-reports/Moved%20File.png)
 <br/><br/>
@@ -71,7 +71,7 @@ Once you've done that, you can log back in using ssh and run the command **ls**.
 
 By setting up an SSH Key, we no longer need to type our password whenever we want to login. Run the command:
 
-**$ ssh-keygen**
+```**$ ssh-keygen**```
 
 It will ask for a file to put the password in. The default one is usually fine so just press enter. Then, it will ask you to set up a password for the key. To save time, we leave it blank (just press enter).
 
@@ -79,11 +79,11 @@ It will ask for a file to put the password in. The default one is usually fine s
 
 Next, login into the server. Run the command:
 
-**$ mkdir .ssh**
+```**$ mkdir .ssh**```
 
 Logout. Then, on ur client, run:
 
-**$ scp /Users/YourUser/.ssh/id_rsa.pub cs15lwi22xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys**
+```**$ scp /Users/YourUser/.ssh/id_rsa.pub cs15lwi22xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys**```
 
 Now, you should be able to ssh into your account without needing a password.
 
@@ -104,3 +104,9 @@ To optimize your command efficency, here are some tips and tricks to make your r
 For example, the following code is mutiple commands ran from the same line:
 
 ![image](https://myang25.github.io/cse15l-lab-reports/Optimization.png)
+
+If this code was manually typed out and ran line by line, there would be 64 total key strokes. If we save our commands in a one-character-name batch file and then run that batch file from the directory its in, we can run the desired commands with only 2 key strokes.
+
+```$ a```
+
+(If the batch file's name is a.)
