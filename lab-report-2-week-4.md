@@ -45,3 +45,6 @@ This is the markdown file, test-file6.md: [test-file6.md](https://github.com/ucs
 
 ![image](https://myang25.github.io/cse15l-lab-reports/lab2-pictures/lab2-error3.png)
 
+The bug is a lack of code that checks for a difference between a link and an image. 
+
+The bug causes images to be returned as links since the formatting is similiar except for a ! in the front. The test-file6.md contains an image, but when ran in MarkdownParse.java, it is returned as a link. By testing for a ! in front of the supposed link, we can make sure if the returned substring is a link or an image.
