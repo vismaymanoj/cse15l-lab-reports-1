@@ -107,6 +107,8 @@ For example, the following code is mutiple commands ran from the same line:
 
 If this code was manually typed out and ran line by line, there would be 64 total key strokes. If we save our commands in a one-character-name batch file and then run that batch file from the directory its in, we can run the desired commands with only 2 key strokes.
 
+To make a batch, open a new notepad, type in the commands, and save the text as a batch file with a singular character name.
+
 ```$ a```
 
 (If the batch file's name is a.)
