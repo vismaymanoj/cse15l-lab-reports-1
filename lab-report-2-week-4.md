@@ -2,13 +2,13 @@
 
 ##Error 1 : "test-file4.md"
 
-![image](https://myang25.github.io/cse15l-lab-reports/lab2-commit1.png)
+![image](https://myang25.github.io/cse15l-lab-reports/lab2-pictures/lab2-commit1.png)
 
 This was the first set of changes made to the code in order to correct the output when MarkdownParse.java was ran on test-file4.md. The original code would return the following errors when ```java MarkdownParse test-file4.md``` was executed:
 
-This is the markdown file, test-file4.md: [link](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-file4.md)
+This is the markdown file, test-file4.md: [test-file4.md](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-file4.md)
 
-![image](https://myang25.github.io/cse15l-lab-reports/lab2-error1.png)
+![image](https://myang25.github.io/cse15l-lab-reports/lab2-pictures/lab2-error1.png)
 
 The bug is in the following lines of code:
 
