@@ -5,7 +5,7 @@ To log in into your course specific account on ieng6 is not that hard! Just foll
 
 ## 1. Installing VSCode
 ---
-![Image](https://myang25.github.io/cse15l-lab-reports/Install%20VSCode.png)
+![Image](https://myang25.github.io/cse15l-lab-reports/lab1-pictures/Install%20VSCode.png)
 <br/>
 Go ahead and head to this link to download VSCode for whichever processing system your particular laptop/PC uses:
 
@@ -32,7 +32,7 @@ If this is your first time connecting to the server, you will get a message conf
 Then the terminal will ask for your password, which is your school account password that you just reset. Keep in mind that the password will be invisible, which trips me up every time. If your password is correct, you should see something along the lines of:
 <br/>
 
-![image](https://myang25.github.io/cse15l-lab-reports/Login%20ieng6.png)
+![image](https://myang25.github.io/cse15l-lab-reports/lab1-pictures/Login%20ieng6.png)
 <br/><br/>
 
 ## 3. Trying Some Commands
@@ -49,7 +49,7 @@ Now that you are logged in and connected to the server, you can try out some com
 This is an example of what some commands may return:
 <br/>
 
-![image](https://myang25.github.io/cse15l-lab-reports/Trial-Commands.png)
+![image](https://myang25.github.io/cse15l-lab-reports/lab1-pictures/Trial-Commands.png)
 <br/><br/>
 
 ## 4. Moving Files with SCP
@@ -63,7 +63,7 @@ This command copies the file from your computer and places a copy in the server.
 
 Once you've done that, you can log back in using ssh and run the command ```**ls**```. ```**ls**``` lists the current files in selected directory. You should see your new file show up inside. For my example, I used ```**WhereAmI.java**```:
 
-![image](https://myang25.github.io/cse15l-lab-reports/Moved%20File.png)
+![image](https://myang25.github.io/cse15l-lab-reports/lab1-pictures/Moved%20File.png)
 <br/><br/>
 
 ## 5. Setting Up an SSH Key
@@ -89,7 +89,7 @@ Now, you should be able to ssh into your account without needing a password.
 
 Finished product should execute something like this:
 
-![Image](https://myang25.github.io/cse15l-lab-reports/SSH%20Key.png)
+![Image](https://myang25.github.io/cse15l-lab-reports/lab1-pictures/SSH%20Key.png)
 <br/><br/>
 
 ## 6. Optimizing Remote Running
@@ -103,7 +103,7 @@ To optimize your command efficency, here are some tips and tricks to make your r
 
 For example, the following code is mutiple commands ran from the same line:
 
-![image](https://myang25.github.io/cse15l-lab-reports/Optimization.png)
+![image](https://myang25.github.io/cse15l-lab-reports/lab1-pictures/Optimization.png)
 
 If this code was manually typed out and ran line by line, there would be 64 total key strokes. If we save our commands in a one-character-name batch file and then run that batch file from the directory its in, we can run the desired commands with only 2 key strokes.
 
